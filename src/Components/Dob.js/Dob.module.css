@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 440px;
+    height: 60px;
+    gap: 0.3rem;
+}
+.month{
+    width: 206px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border-radius: 0.3rem ;
+
+}
+.year{
+    width: 113px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border-radius: 0.3rem ;
+}
+.day{
+    width: 91px;
+    height: 56px;
+    background-color: black;
+    color: white;
+    border-radius: 0.3rem ;
+}

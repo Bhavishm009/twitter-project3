@@ -1,0 +1,30 @@
+.button{
+    width: 100%;
+    background-color: black;
+    color: aliceblue; 
+}
+.button:hover{
+   background-color: gray;
+}
+.dialog{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.container{
+    width: 30%;
+    height: 40%;
+    box-sizing: 1rem;
+    color: #e6ecf0;
+    padding-right: 15%;
+    top: 8rem;   
+    position:fixed; 
+    top:85%;
+    border-radius: 30%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.btn{
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 100%;
+}
