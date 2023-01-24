@@ -46,11 +46,11 @@ export default function TwitterPost() {
                 <span className={style.text}>
                   <h3>
                     {data.name}
-                    <VerifiedIcon style={{ color: "blue" }} />
+                    <VerifiedIcon style={{ color: '#1DA1F2' }} />
                   </h3>
                 </span>
-                <h4>{data.handlerName}</h4>
-                <h6>{data.tweetText}</h6>
+                <h6>{data.handlerName}</h6>
+                <h4>{data.tweetText}</h4>
               </div>
             </div>
 
@@ -68,22 +68,22 @@ export default function TwitterPost() {
             <div className={style.icons}>
               <span>
                 {data.tweetCount}
-                <ChatBubbleOutlineIcon />
+                <ChatBubbleOutlineIcon style={{ color: '#1DA1F2' }} />
               </span>
               <span>
                 {data.retweetCount}
-                <SyncIcon />
+                <SyncIcon style={{ color: '#1DA1F2' }} />
               </span>
               <span>
                 {data.likesCount}
-                <FavoriteBorderIcon />
+                <FavoriteBorderIcon style={{ color: '#1DA1F2' }}  />
               </span>
               <span>
                 {data.viewsCount}
-                <PollIcon />
+                <PollIcon style={{ color: '#1DA1F2' }}  />
               </span>
 
-              <UploadIcon />
+              <UploadIcon style={{ color: '#1DA1F2' }}  />
             </div>
           </div>
         );
