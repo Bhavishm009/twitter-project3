@@ -11,7 +11,7 @@
 }
 .container h1{
     margin: 0.5rem;
-    font-size: 1.25rem;
+    font-size: 0.5rem;
 }
 /* .main{
     color: red;
@@ -45,6 +45,7 @@
     outline: none;
     align-items: center;
     text-align: center;
-  
+}
+.wrapper:nth-child(2){
 
 }

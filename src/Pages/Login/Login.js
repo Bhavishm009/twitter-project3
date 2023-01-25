@@ -27,7 +27,7 @@ function Login() {
   const buttonNext = () => {
     let flag = 1;
     if (isValidLogin(loginv)) {
-      setLoginError("Give Username or Email or Phoneno");
+      setLoginError("Give Username or Email or Phone no");
 
       flag = 1;
     } else {

@@ -1,7 +1,5 @@
 import React from "react";
-
 import style from "./TwitterPost.module.css";
-
 import { Avatar } from "@mui/material";
 import { tweetPosts } from "../../TweetData/TweetData";
 import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
@@ -10,14 +8,12 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import PollIcon from "@mui/icons-material/Poll";
 import UploadIcon from "@mui/icons-material/Upload";
 import VerifiedIcon from "@mui/icons-material/Verified";
-
 import { useState, useEffect } from "react";
 import { useRecoilState } from "recoil";
 import { isTweetPost } from "../../Recoil/Atom1/Atom";
 
 export default function TwitterPost() {
   const [post, setPost] = useState(tweetPosts);
-  //const[lpost,setLpost]=useState(tweetPosts.length)
   const [newPost, setNewPost] = useRecoilState(isTweetPost);
 
   useEffect(() => {
@@ -27,11 +23,9 @@ export default function TwitterPost() {
   function fetchData() {
     setPost(tweetPosts);
   }
-
   function fetchData() {
     setPost(tweetPosts);
   }
-
   return (
     <>
       {post.map((data) => {
@@ -91,4 +85,3 @@ export default function TwitterPost() {
     </>
   );
 }
-// TwitterPost;

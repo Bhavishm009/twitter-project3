@@ -12,7 +12,6 @@ import { isTweetPost } from "../../Recoil/Atom1/Atom";
 
 function WhatHappening() {
   const [storeArray, setStoreArray] = useState("");
-  // const [forTrue, setForTrue] = useState(0);
   const [loginStatus, setLoginStatus] = useRecoilState(isTweetPost);
   const Icons = [
     { id: 0, icon: <FaGlobe /> },

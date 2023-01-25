@@ -208,6 +208,7 @@ function Register() {
                     </span>
                     <div>
                       <Input
+                          type={'password'}
                         className={style.input2}
                         placeholder="Password"
                         handleOnchange={handlePassword}
